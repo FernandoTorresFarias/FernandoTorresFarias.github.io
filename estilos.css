@@ -55,17 +55,16 @@ h2 {
         display: flex;
         justify-content: flex-end; /* Mueve la imagen hacia la derecha */
         align-items: center;
-        margin-top: 20x; 
+        margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+        margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
+        margin-left: auto; /* Establece el margen izquierdo como automático */
+    }
     
-        }
-     
     .mensajes {
         width: 750px;
-        height: 300px;
-        align-items: flex-start;
-        margin-top: -390px;
-        margin-right: 225px; /* Ajusta el margen derecho según sea necesario */
-        border: 12px solid yellow; 
-        }
-    
- 
+        max-width: calc(100% - 300px); /* Ajusta el ancho máximo para que la imagen no ocupe más del 75% del ancho de la página */
+        height: auto;
+        border: 12px solid yellow;
+        margin-top: -388px;
+
+    }
