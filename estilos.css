@@ -1,6 +1,8 @@
+
+
 /* Estilos de encabezado */
 .header {
-    background-color: yellow;
+    background-color: rgb(238, 225, 51);
     height: 90px;
     display: flex;
     align-items: center;
@@ -15,6 +17,7 @@
 }
 
 h1 {
+    color: rgb(0, 0, 0);
     text-align: center; /* Alineado el texto al centro */
     margin: 0 auto; /* Centrado horizontalmente */
     font-size: 40px;
@@ -75,14 +78,31 @@ h4 {
 
 .SECCION3{
     border: 7px solid yellow;
-
 }
 
 .SECCION2{
     border: 7px solid black;
-
 }
 
 .SECCION1{
     border: 7px solid rgb(76, 76, 243);
 }
+
+.content{
+    width: 90%; /* Cambiado a porcentaje para que se ajuste al tamaño de la pantalla */
+     max-width: 800px; /* Limitado el ancho máximo */
+     margin: 20px auto; /* Centrado horizontalmente */
+     border: 7px solid black;  
+}
+
+.png-lenguajes {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-bottom: 20px; /* Espacio entre la imagen y el video */
+}
+
+.lenguaje {
+    width: 800px;
+    height: 400px;
+    border: 7px solid yellow;
+} 
